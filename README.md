@@ -1,5 +1,6 @@
 # SINS database
-Author: Gert Dekkers (<gert.dekkers@kuleuven.be>, <https://iiw.kuleuven.be/onderzoek/advise/People/Gert_Dekkers>)
+Main author: Gert Dekkers (<gert.dekkers@kuleuven.be>, <https://iiw.kuleuven.be/onderzoek/advise/People/Gert_Dekkers>)
+Dataset contribution: Steven Lauwereins, Bart Thoen, Mulu Weldegebreal Adhana, Henk Brouckxon, Bertold Van den Bergh, Toon van Waterschoot, Bart Vanrumste, Marian Verhelst and Peter Karsmakers.
 
 Introduction
 ===============
@@ -75,4 +76,5 @@ This software is released under the terms of the [MIT License](https://github.co
 This dataset is licensed under the license available in each Zenodo repository.
 
 When using this database you should cite the following paper:
+
 Gert Dekkers, Steven Lauwereins, Bart Thoen, Mulu Weldegebreal Adhana, Henk Brouckxon, Toon van Waterschoot, Bart Vanrumste, Marian Verhelst, and Peter Karsmakers, The SINS database for detection of daily activities in a home environment using an acoustic sensor network, Proceedings of the Detection and Classification of -Acoustic Scenes and Events 2017 Workshop (DCASE2017), pp 32–36, November 2017.
