@@ -17,24 +17,30 @@ Download
 The data from each sensor node (id's matching the one on the [figure][other/2dplan.jpg]) is located in different repositories. The data for each sensor node is available at: [Node 1](https://zenodo.org/record/2546677#.XFR3DFVKhhE), [Node 2](https://zenodo.org/record/2546677#.XFR3DFVKhhE), [Node 3](https://zenodo.org/record/2546677#.XFR3DFVKhhE), [Node 4](https://zenodo.org/record/2546677#.XFR3DFVKhhE), [Node 6](https://zenodo.org/record/2546677#.XFR3DFVKhhE), [Node 7](https://zenodo.org/record/2546677#.XFR3DFVKhhE), [Node 8](https://zenodo.org/record/2546677#.XFR3DFVKhhE), [Node 9](https://zenodo.org/record/2546677#.XFR3DFVKhhE), [Node 10](https://zenodo.org/record/2546677#.XFR3DFVKhhE), [Node 11](https://zenodo.org/record/2546677#.XFR3DFVKhhE), [Node 12](https://zenodo.org/record/2546677#.XFR3DFVKhhE) and [Node 13](https://zenodo.org/record/2546677#.XFR3DFVKhhE)
 
 **Note:** The downloads do not contain labels. These can be obtained at this GitHub repository in the `annotation` folder.
+
 **Note:** Node 5 is not available because the node had issues (random crashes/missing data)
 
 Repository overview
 ==============
     .
-    ├── README.md					# (this) README file
+    ├── README.md				# (this) README file
     ├── example_code/				# Folder containing the example code
 		├──── anno_reannotator.m	# Code for re-annotating or simply checking the data
 		├──── anno_room_creator.m	# Create room specific-annotation from the original annotation
 		├──── get_time_sync_info.m	# Get synchronization info needed by the segment_wav.m and anno_reannotator.m scripts
-		├──── segment_wav.m			# Function to load the general parameters of the model
-		├──── annotation/			# Folder containing the different parameter files
-			└────── labels.csv		# CSV-file containing timestamps with labels
-		└──── other/				# Sync related output files
-    └── other/						# Folder containing other information which might be of interest
+		├──── segment_wav.m		# Function to load the general parameters of the model
+		├──── annotation/		# Folder containing the different parameter files
+			└────── labels.csv	# CSV-file containing timestamps with labels
+		└──── other/			# Sync related output files
+    └── other/					# Folder containing other information which might be of interest
 
 
 If you want more clarification on each script you can read the comments on top.
+
+What's (not yet) in this database
+==============
+* sine sweeps (10s, 7 times) on multiple positions to obtain impulse responses. 
+* Relative location of each sensor node
 
 Changelog
 =========
