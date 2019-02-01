@@ -47,11 +47,12 @@ GitHub Repository overview
 		├──── anno_room_creator.m	# Create room specific-annotation from the original annotation
 		├──── get_time_sync_info.m	# Get synchronization info needed by the segment_wav.m and anno_reannotator.m scripts
 		├──── segment_wav.m		# Function to load the general parameters of the model
-		├──── annotation/		# Folder containing the different parameter files
-			└────── labels.csv	# CSV-file containing timestamps with labels
+    ├── annotation/				# Folder containing the different parameter files
+	└────── labels.csv			# CSV-file containing timestamps with labels
 		└──── other/			# Sync related output files
     └── other/				# Folder containing other information which might be of interest
 
+The folder `example_code` contains code for segmenting (`segment_wav.m`), (re-)annotating (`anno_reannotator.m`) and creating room specific labels (`anno_room_creator.m`). The main label file is `annotation/labels.csv`, while the others are derivates given a particular room obtained by `anno_room_creator.m`. `get_time_sync_info.m` contain code to acquire sync-related data from the sync files available in the data repository. Everything is already processed and output files are available in `annotation/other`, so these are available for your information.
 
 If you want more clarification on each script you can read the comments on top.
 
