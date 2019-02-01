@@ -3,7 +3,7 @@ Author: Gert Dekkers (<gert.dekkers@kuleuven.be>, <https://iiw.kuleuven.be/onder
 
 Introduction
 ===============
-The SINS database consists of continuous recordings of one person living in a vacation home over a period of one week. It was collected using a network of 13 microphone arrays distributed over a vacation home. Each microphone array consists of 4 linearly arranged microphones. This repository provides example code (MATLAB) to start with the data (i.e. segmentation, annotation and data exploration) along with the ground truth labels. Data is labelled on daily activity level (e.g. cooking, showering, presence, ...).
+The SINS database consists of continuous recordings of one person living in a vacation home over a period of one week. It was collected using a network of 13 microphone arrays distributed over the multiple rooms. Each microphone array consisted of 4 linearly arranged microphones. This repository provides example code (MATLAB) to start with the data (i.e. segmentation, annotation and data exploration) along with the ground truth labels. Data is labelled on daily activity level (e.g. cooking, showering, presence, ...).
 
 Getting started
 ===============
