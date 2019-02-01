@@ -52,7 +52,7 @@ GitHub Repository overview
 		└──── other/			# Sync related output files
     └── other/				# Folder containing other information which might be of interest
 
-The folder `example_code` contains code for segmenting (`segment_wav.m`), (re-)annotating (`anno_reannotator.m`) and creating room specific labels (`anno_room_creator.m`). The main label file is `annotation/labels.csv`, while the others are derivates given a particular room obtained by `anno_room_creator.m`. `get_time_sync_info.m` contain code to acquire sync-related data from the sync files available in the data repository. Everything is already processed and output files are available in `annotation/other`, so these are available for your information.
+The folder `example_code` contains code for segmenting (`segment_wav.m`), (re-)annotating (`anno_reannotator.m`) and creating room specific labels (`anno_room_creator.m`). The main label file is `annotation/labels.csv`, while the others are derivatives given a particular room obtained by `anno_room_creator.m`. `get_time_sync_info.m` contains code to acquire sync-related data (used by the segmenting and annotation code) from the sync files available in the data repository. Everything is already processed and output files are available in `annotation/other`, so these are available for your information.
 
 If you want more clarification on each script you can read the comments on top.
 
