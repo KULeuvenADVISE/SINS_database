@@ -20,7 +20,7 @@ addpath(fullfile('functions'));
 
 room = 'living'; % select room. Options: 'living','bathroom','wcroom','bedroom', 'hall'
 % Load labels
-annodir = fullfile('annotation','labels.csv'); % annotation dir
+annodir = fullfile('..','annotation','labels.csv'); % annotation dir
 str_anno = readCSV(annodir,4); % get annotation
 dt_anno = [datetime(datevec(str_anno(:,2))) datetime(datevec(str_anno(:,3)))]; % matlab datatime objects
 all_class = unique(str_anno(:,1)); % unique class strings

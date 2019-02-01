@@ -35,11 +35,11 @@ else
     basedatadir = '/media/SoundData2/SINSMol/data_public/Original/audio';
     basesavedir = '/media/SoundData2/SINSMol/data_public/Segmented/audio';
 end
-labelsavedir = fullfile('annotation');
+labelsavedir = fullfile('..','annotation');
 
 %% Inits
 % load labels
-annodir = fullfile('annotation',[room '_labels.csv']); % annotation dir
+annodir = fullfile('..','annotation',[room '_labels.csv']); % annotation dir
 str_anno = readCSV(annodir,3); % get annotation
 dt_anno = [datetime(datevec(str_anno(:,2))) datetime(datevec(str_anno(:,3)))]; % matlab datatime objects
 all_class = unique(str_anno(:,1)); % unique class strings
