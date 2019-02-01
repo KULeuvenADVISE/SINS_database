@@ -4,7 +4,9 @@ Dataset contribution: Steven Lauwereins, Bart Thoen, Mulu Weldegebreal Adhana, H
 
 Introduction
 ===============
-The SINS database consists of continuous recordings of one person living in a vacation home over a period of one week. It was collected using a network of 13 microphone arrays distributed over the multiple rooms. Each microphone array consisted of 4 linearly arranged microphones. This repository provides example code (MATLAB) to start with the data (i.e. segmentation, annotation and data exploration) along with the ground truth labels. Data is labelled on daily activity level (e.g. cooking, showering, presence, ...).
+The SINS database consists of continuous audio recordings of one person living in a vacation home over a period of one week. It was collected using a network of 13 microphone arrays distributed over the multiple rooms. Each microphone array consisted of 4 linearly arranged microphones. This repository provides example code (MATLAB) to start with the data (i.e. segmentation, annotation and data exploration) along with the ground truth labels. Data is labeled on daily activity level (e.g. cooking, showering, presence, ...).
+
+This dataset served as a base for the [DCASE 2018 Challenge Task 5](http://dcase.community/challenge2018/task-monitoring-domestic-activities).
 
 Getting started
 ===============
@@ -15,7 +17,7 @@ Getting started
 Download
 ==============
 
-The data from each sensor node (id's matching the one on the [figure](other/2dplan.jpg)) is located in different repositories. The data for each sensor node is available at: [Node 1](https://zenodo.org/record/2546677#.XFR-KlVKhhE), [Node 2](https://zenodo.org/record/2547307#.XFR-RFVKiUk), [Node 3](https://zenodo.org/record/2547309#.XFR-V1VKiUk), [Node 4](https://zenodo.org/record/2555084#.XFR-d1VKiUk), [Node 6](https://zenodo.org/record/2547313#.XFR-jFVKiUk), [Node 7](https://zenodo.org/record/2547315#.XFR-sFVKiUk), [Node 8](https://zenodo.org/record/2547319#.XFR-8FVKiUk), [Node 9](https://zenodo.org/record/2555080#.XFR_GlVKiUk), [Node 10](https://zenodo.org/record/2555137#.XFR_QFVKiUk), [Node 11](https://zenodo.org/record/2555139#.XFR_XFVKiUk), [Node 12](https://zenodo.org/record/2555141#.XFR_f1VKiUk) and [Node 13](https://zenodo.org/record/2555143#.XFR_nVVKiUk)
+The data from each sensor node (id's matching the one on the [figure](other/2dplan.jpg) and [paper](https://www.cs.tut.fi/sgn/arg/dcase2017/documents/workshop_papers/DCASE2017Workshop_Dekkers_141.pdf)) is located in different repositories. The data for each sensor node is available at: [Node 1](https://zenodo.org/record/2546677#.XFR-KlVKhhE), [Node 2](https://zenodo.org/record/2547307#.XFR-RFVKiUk), [Node 3](https://zenodo.org/record/2547309#.XFR-V1VKiUk), [Node 4](https://zenodo.org/record/2555084#.XFR-d1VKiUk), [Node 6](https://zenodo.org/record/2547313#.XFR-jFVKiUk), [Node 7](https://zenodo.org/record/2547315#.XFR-sFVKiUk), [Node 8](https://zenodo.org/record/2547319#.XFR-8FVKiUk), [Node 9](https://zenodo.org/record/2555080#.XFR_GlVKiUk), [Node 10](https://zenodo.org/record/2555137#.XFR_QFVKiUk), [Node 11](https://zenodo.org/record/2555139#.XFR_XFVKiUk), [Node 12](https://zenodo.org/record/2555141#.XFR_f1VKiUk) and [Node 13](https://zenodo.org/record/2555143#.XFR_nVVKiUk)
 
 **Note:** The downloads do not contain labels. These can be obtained at this GitHub repository in the `annotation` folder.
 
