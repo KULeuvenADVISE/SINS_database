@@ -1,3 +1,5 @@
+Note: a python port is available at https://github.com/fgnt/sins. We thank the authors for their contribution!
+
 # SINS database
 Authors: Gert Dekkers (<gert.dekkers@kuleuven.be>, <https://iiw.kuleuven.be/onderzoek/advise/People/Gert_Dekkers>), Steven Lauwereins, Bart Thoen, Mulu Weldegebreal Adhana, Henk Brouckxon, Bertold Van den Bergh, Toon van Waterschoot, Bart Vanrumste, Marian Verhelst and Peter Karsmakers.
 KU Leuven/Vrije Universiteit Brussel
