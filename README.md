@@ -61,12 +61,6 @@ The folder `example_code` contains code for segmenting (`segment_wav.m`), (re-)a
 
 If you want more clarification on each script you can read the comments on top.
 
-What's not (yet) in this database
-==============
-* sine sweeps (10s, 7 times) on multiple positions to obtain impulse responses. 
-* Relative location of each sensor node
-Please contact us if you're interested.
-
 Changelog
 =========
 #### 1.0.0 / 2019-02-01
